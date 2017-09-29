@@ -1,0 +1,27 @@
+/* 
+  language.strings
+  Party Maker
+
+  Created by 2 on 2/22/16.
+  Copyright © 2016 latrops. All rights reserved.
+*/
+"CHOOSE DATE" = "CHOOSE DATE";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Login" = "Login";
+"Password" = "Password";
+"Error!" = "Error!";
+"Choose date." = "Choose date.";
+"Enter party name." = "Enter party name.";
+"Your party name" = "Your party name";
+"Date" = "Date";
+"Party time!" = "Party time!";
+"is about to begin!" = "is about to begin!";
+"Location not set" = "Location not set";
+"Wrong data" = "Invalid username or password";
+"Enter data" = "Fill all fields";
+"User exists" = "User with such name exists";
+"New party" = "New party";
+"Location not set" = "Location not set";
+"Mark done" = "Mark done";
+"Cannot connect to server" = "Cannot connect to server";

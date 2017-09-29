@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831DE4B61C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 831DE4B51C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.m */; };
+		831DE4BC1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831DE4BB1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.m */; };
+		83350CBC1C63502F001AEEF2 /* MyriadProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83350CBB1C63502F001AEEF2 /* MyriadProBold.ttf */; };
+		83350CBE1C6351FF001AEEF2 /* MyriadProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83350CBD1C6351FF001AEEF2 /* MyriadProRegular.ttf */; };
+		833A0ED51C84DDAE00F0675A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833A0ED71C84DDAE00F0675A /* Info.plist */; };
+		834121BE1C72092200E53357 /* LWTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834121BD1C72092200E53357 /* LWTLoginViewController.m */; };
+		834121C11C73310700E53357 /* LWTPartyMakerSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 834121C01C73310700E53357 /* LWTPartyMakerSDK.m */; };
+		834121C41C7486E100E53357 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 834121C21C7486E100E53357 /* Model.xcdatamodeld */; };
+		834121DA1C74BC1600E53357 /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = 834121D81C74BC1600E53357 /* Party.m */; };
+		83492FEE1C80A05800C625C9 /* LWTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83492FED1C80A05800C625C9 /* LWTUser.m */; };
+		834D28471C8492DE00458B01 /* LWTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D28461C8492DE00458B01 /* LWTSettingsViewController.m */; };
+		834D284A1C849AE800458B01 /* LWTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D28491C849AE800458B01 /* LWTTabViewController.m */; };
+		835707321C772843000E07E9 /* Party+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 835707311C772843000E07E9 /* Party+CoreDataProperties.m */; };
+		839A0F181C70C3BB005343F1 /* NSNumberUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 839A0F171C70C3BB005343F1 /* NSNumberUtility.m */; };
+		83A3203F1C6224FC00437210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A3203E1C6224FC00437210 /* main.m */; };
+		83A320421C6224FC00437210 /* LWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A320411C6224FC00437210 /* LWTAppDelegate.m */; };
+		83A320581C6224FC00437210 /* Party_MakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A320571C6224FC00437210 /* Party_MakerTests.m */; };
+		83A320631C6224FC00437210 /* Party_MakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A320621C6224FC00437210 /* Party_MakerUITests.m */; };
+		83A320771C624FDE00437210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A320761C624FDE00437210 /* Assets.xcassets */; };
+		83A536711C68B897002399FF /* LWTEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A5366F1C68B897002399FF /* LWTEventView.m */; };
+		83A536791C691F6E002399FF /* LWTParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A536781C691F6E002399FF /* LWTParty.m */; };
+		83A6E0821C6F9360002C7644 /* LWTPartyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A6E0811C6F9360002C7644 /* LWTPartyInfoViewController.m */; };
+		83A6E0841C6FAE00002C7644 /* Myriad_Pro_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83A6E0831C6FAE00002C7644 /* Myriad_Pro_Italic.ttf */; };
+		83B2252A1C69F9EF008EAE74 /* LWTLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B225291C69F9EF008EAE74 /* LWTLaunchScreen.storyboard */; };
+		83D172011C7B4B8F000C2B01 /* language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D172031C7B4B8F000C2B01 /* language.strings */; };
+		83D172061C7B5B2F000C2B01 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D172081C7B5B2F000C2B01 /* MainStoryboard.storyboard */; };
+		83D1720E1C7B94D1000C2B01 /* LWTCoreDataAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1720D1C7B94D1000C2B01 /* LWTCoreDataAPI.m */; };
+		83D1723B1C7C8811000C2B01 /* LWTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1723A1C7C8811000C2B01 /* LWTMapViewController.m */; };
+		83D1723F1C7C88C1000C2B01 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1723E1C7C88C1000C2B01 /* MapKit.framework */; };
+		83D172411C7C88CD000C2B01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D172401C7C88CD000C2B01 /* CoreLocation.framework */; };
+		83D172441C7C94A7000C2B01 /* LWTAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D172431C7C94A7000C2B01 /* LWTAnnotationView.m */; };
+		83E79A5B1C6DEE4F0091A15C /* LWTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E79A5A1C6DEE4F0091A15C /* LWTTableViewCell.m */; };
+		83E79A5E1C6DF7440091A15C /* LWTTableScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E79A5D1C6DF7440091A15C /* LWTTableScreenViewController.m */; };
+		83E79A611C6F8A5A0091A15C /* LWTPartyStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E79A601C6F8A5A0091A15C /* LWTPartyStorage.m */; };
+		D37901A3956F3B3744DF8216 /* libPods-Party Maker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C2C5069584FE2E43386C5D /* libPods-Party Maker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A320541C6224FC00437210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A320321C6224FC00437210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A320391C6224FC00437210;
+			remoteInfo = "Party Maker";
+		};
+		83A3205F1C6224FC00437210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A320321C6224FC00437210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A320391C6224FC00437210;
+			remoteInfo = "Party Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073D5C4210AB97422D915C3F /* Pods-Party Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party Maker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Party Maker/Pods-Party Maker.release.xcconfig"; sourceTree = "<group>"; };
+		831DE4B41C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+StoryBoardConfiguration.h"; sourceTree = "<group>"; };
+		831DE4B51C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+StoryBoardConfiguration.m"; sourceTree = "<group>"; };
+		831DE4BA1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTMapMultiplePartiesViewController.h; sourceTree = "<group>"; };
+		831DE4BB1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTMapMultiplePartiesViewController.m; sourceTree = "<group>"; };
+		83350CBB1C63502F001AEEF2 /* MyriadProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProBold.ttf; sourceTree = "<group>"; };
+		83350CBD1C6351FF001AEEF2 /* MyriadProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProRegular.ttf; sourceTree = "<group>"; };
+		83389E631C84D3DB0032CBAF /* uk */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = uk; path = uk.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		833A0ED61C84DDAE00F0675A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		833A0ED81C84DDB100F0675A /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = uk; path = uk.lproj/Info.plist; sourceTree = "<group>"; };
+		834121BC1C72092200E53357 /* LWTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTLoginViewController.h; sourceTree = "<group>"; };
+		834121BD1C72092200E53357 /* LWTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTLoginViewController.m; sourceTree = "<group>"; };
+		834121BF1C73310700E53357 /* LWTPartyMakerSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTPartyMakerSDK.h; sourceTree = "<group>"; };
+		834121C01C73310700E53357 /* LWTPartyMakerSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTPartyMakerSDK.m; sourceTree = "<group>"; };
+		834121C31C7486E100E53357 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		834121D71C74BC1600E53357 /* Party.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Party.h; sourceTree = "<group>"; };
+		834121D81C74BC1600E53357 /* Party.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Party.m; sourceTree = "<group>"; };
+		83492FEC1C80A05800C625C9 /* LWTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTUser.h; sourceTree = "<group>"; };
+		83492FED1C80A05800C625C9 /* LWTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTUser.m; sourceTree = "<group>"; };
+		834D28451C8492DE00458B01 /* LWTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTSettingsViewController.h; sourceTree = "<group>"; };
+		834D28461C8492DE00458B01 /* LWTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTSettingsViewController.m; sourceTree = "<group>"; };
+		834D28481C849AE800458B01 /* LWTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTTabViewController.h; sourceTree = "<group>"; };
+		834D28491C849AE800458B01 /* LWTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTTabViewController.m; sourceTree = "<group>"; };
+		835707301C772843000E07E9 /* Party+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Party+CoreDataProperties.h"; sourceTree = "<group>"; };
+		835707311C772843000E07E9 /* Party+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Party+CoreDataProperties.m"; sourceTree = "<group>"; };
+		839A0F161C70C3BB005343F1 /* NSNumber+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Utility.h"; sourceTree = "<group>"; };
+		839A0F171C70C3BB005343F1 /* NSNumberUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberUtility.m; sourceTree = "<group>"; };
+		83A3203A1C6224FC00437210 /* Party Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A3203E1C6224FC00437210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A320401C6224FC00437210 /* LWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTAppDelegate.h; sourceTree = "<group>"; };
+		83A320411C6224FC00437210 /* LWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTAppDelegate.m; sourceTree = "<group>"; };
+		83A320531C6224FC00437210 /* Party MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Party MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A320571C6224FC00437210 /* Party_MakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Party_MakerTests.m; sourceTree = "<group>"; };
+		83A320591C6224FC00437210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A3205E1C6224FC00437210 /* Party MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Party MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A320621C6224FC00437210 /* Party_MakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Party_MakerUITests.m; sourceTree = "<group>"; };
+		83A320641C6224FC00437210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A320761C624FDE00437210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A5366E1C68B897002399FF /* LWTEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTEventView.h; sourceTree = "<group>"; };
+		83A5366F1C68B897002399FF /* LWTEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTEventView.m; sourceTree = "<group>"; };
+		83A536771C691F6E002399FF /* LWTParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTParty.h; sourceTree = "<group>"; };
+		83A536781C691F6E002399FF /* LWTParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTParty.m; sourceTree = "<group>"; };
+		83A6E0801C6F9360002C7644 /* LWTPartyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTPartyInfoViewController.h; sourceTree = "<group>"; };
+		83A6E0811C6F9360002C7644 /* LWTPartyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTPartyInfoViewController.m; sourceTree = "<group>"; };
+		83A6E0831C6FAE00002C7644 /* Myriad_Pro_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Myriad_Pro_Italic.ttf; sourceTree = "<group>"; };
+		83B225291C69F9EF008EAE74 /* LWTLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LWTLaunchScreen.storyboard; sourceTree = "<group>"; };
+		83D172021C7B4B8F000C2B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/language.strings; sourceTree = "<group>"; };
+		83D172051C7B4C2A000C2B01 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/language.strings; sourceTree = "<group>"; };
+		83D172071C7B5B2F000C2B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		83D1720C1C7B94D1000C2B01 /* LWTCoreDataAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTCoreDataAPI.h; sourceTree = "<group>"; };
+		83D1720D1C7B94D1000C2B01 /* LWTCoreDataAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTCoreDataAPI.m; sourceTree = "<group>"; };
+		83D172391C7C8811000C2B01 /* LWTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTMapViewController.h; sourceTree = "<group>"; };
+		83D1723A1C7C8811000C2B01 /* LWTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTMapViewController.m; sourceTree = "<group>"; };
+		83D1723E1C7C88C1000C2B01 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83D172401C7C88CD000C2B01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83D172421C7C94A7000C2B01 /* LWTAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTAnnotationView.h; sourceTree = "<group>"; };
+		83D172431C7C94A7000C2B01 /* LWTAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTAnnotationView.m; sourceTree = "<group>"; };
+		83E79A591C6DEE4F0091A15C /* LWTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTTableViewCell.h; sourceTree = "<group>"; };
+		83E79A5A1C6DEE4F0091A15C /* LWTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTTableViewCell.m; sourceTree = "<group>"; };
+		83E79A5C1C6DF7440091A15C /* LWTTableScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTTableScreenViewController.h; sourceTree = "<group>"; };
+		83E79A5D1C6DF7440091A15C /* LWTTableScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTTableScreenViewController.m; sourceTree = "<group>"; };
+		83E79A5F1C6F8A5A0091A15C /* LWTPartyStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTPartyStorage.h; sourceTree = "<group>"; };
+		83E79A601C6F8A5A0091A15C /* LWTPartyStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTPartyStorage.m; sourceTree = "<group>"; };
+		95C2C5069584FE2E43386C5D /* libPods-Party Maker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Party Maker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99F9001F140688EB6FE28B4 /* Pods-Party Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party Maker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Party Maker/Pods-Party Maker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A320371C6224FC00437210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D172411C7C88CD000C2B01 /* CoreLocation.framework in Frameworks */,
+				83D1723F1C7C88C1000C2B01 /* MapKit.framework in Frameworks */,
+				D37901A3956F3B3744DF8216 /* libPods-Party Maker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A320501C6224FC00437210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A3205B1C6224FC00437210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A1294EC997BD4282C25B65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D172401C7C88CD000C2B01 /* CoreLocation.framework */,
+				83D1723E1C7C88C1000C2B01 /* MapKit.framework */,
+				95C2C5069584FE2E43386C5D /* libPods-Party Maker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8331B0C81C6A7570000DD69A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				83D172081C7B5B2F000C2B01 /* MainStoryboard.storyboard */,
+				83B225291C69F9EF008EAE74 /* LWTLaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		8331B0C91C6A758A000DD69A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				83A6E0831C6FAE00002C7644 /* Myriad_Pro_Italic.ttf */,
+				83350CBB1C63502F001AEEF2 /* MyriadProBold.ttf */,
+				83350CBD1C6351FF001AEEF2 /* MyriadProRegular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		8331B0CA1C6A762F000DD69A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				83A6E0801C6F9360002C7644 /* LWTPartyInfoViewController.h */,
+				83A6E0811C6F9360002C7644 /* LWTPartyInfoViewController.m */,
+				83A5366E1C68B897002399FF /* LWTEventView.h */,
+				83A5366F1C68B897002399FF /* LWTEventView.m */,
+				83E79A5C1C6DF7440091A15C /* LWTTableScreenViewController.h */,
+				83E79A5D1C6DF7440091A15C /* LWTTableScreenViewController.m */,
+				834121BC1C72092200E53357 /* LWTLoginViewController.h */,
+				834121BD1C72092200E53357 /* LWTLoginViewController.m */,
+				83D172391C7C8811000C2B01 /* LWTMapViewController.h */,
+				83D1723A1C7C8811000C2B01 /* LWTMapViewController.m */,
+				831DE4BA1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.h */,
+				831DE4BB1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.m */,
+				834D28451C8492DE00458B01 /* LWTSettingsViewController.h */,
+				834D28461C8492DE00458B01 /* LWTSettingsViewController.m */,
+				834D28481C849AE800458B01 /* LWTTabViewController.h */,
+				834D28491C849AE800458B01 /* LWTTabViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8331B0CB1C6A7650000DD69A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83E79A5F1C6F8A5A0091A15C /* LWTPartyStorage.h */,
+				83E79A601C6F8A5A0091A15C /* LWTPartyStorage.m */,
+				834121BF1C73310700E53357 /* LWTPartyMakerSDK.h */,
+				834121C01C73310700E53357 /* LWTPartyMakerSDK.m */,
+				835707301C772843000E07E9 /* Party+CoreDataProperties.h */,
+				835707311C772843000E07E9 /* Party+CoreDataProperties.m */,
+				834121D71C74BC1600E53357 /* Party.h */,
+				834121D81C74BC1600E53357 /* Party.m */,
+				83A536771C691F6E002399FF /* LWTParty.h */,
+				83A536781C691F6E002399FF /* LWTParty.m */,
+				83D1720C1C7B94D1000C2B01 /* LWTCoreDataAPI.h */,
+				83D1720D1C7B94D1000C2B01 /* LWTCoreDataAPI.m */,
+				83D172421C7C94A7000C2B01 /* LWTAnnotationView.h */,
+				83D172431C7C94A7000C2B01 /* LWTAnnotationView.m */,
+				83492FEC1C80A05800C625C9 /* LWTUser.h */,
+				83492FED1C80A05800C625C9 /* LWTUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8331B0CC1C6A7660000DD69A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83A320761C624FDE00437210 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		83A320311C6224FC00437210 = {
+			isa = PBXGroup;
+			children = (
+				83A3203C1C6224FC00437210 /* Party Maker */,
+				83A320561C6224FC00437210 /* Party MakerTests */,
+				83A320611C6224FC00437210 /* Party MakerUITests */,
+				83A3203B1C6224FC00437210 /* Products */,
+				9F24578C8C83E9BC05EE6281 /* Pods */,
+				72A1294EC997BD4282C25B65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83A3203B1C6224FC00437210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A3203A1C6224FC00437210 /* Party Maker.app */,
+				83A320531C6224FC00437210 /* Party MakerTests.xctest */,
+				83A3205E1C6224FC00437210 /* Party MakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A3203C1C6224FC00437210 /* Party Maker */ = {
+			isa = PBXGroup;
+			children = (
+				83D171FE1C7B4442000C2B01 /* Resources */,
+				8331B0CC1C6A7660000DD69A /* Assets */,
+				8331B0CB1C6A7650000DD69A /* Models */,
+				8331B0CA1C6A762F000DD69A /* ViewControllers */,
+				8331B0C91C6A758A000DD69A /* Fonts */,
+				8331B0C81C6A7570000DD69A /* Storyboards */,
+				83A3203D1C6224FC00437210 /* Supporting Files */,
+				83E79A591C6DEE4F0091A15C /* LWTTableViewCell.h */,
+				83E79A5A1C6DEE4F0091A15C /* LWTTableViewCell.m */,
+				839A0F161C70C3BB005343F1 /* NSNumber+Utility.h */,
+				839A0F171C70C3BB005343F1 /* NSNumberUtility.m */,
+				831DE4B41C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.h */,
+				831DE4B51C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.m */,
+			);
+			path = "Party Maker";
+			sourceTree = "<group>";
+		};
+		83A3203D1C6224FC00437210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A320401C6224FC00437210 /* LWTAppDelegate.h */,
+				83A320411C6224FC00437210 /* LWTAppDelegate.m */,
+				83A3203E1C6224FC00437210 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A320561C6224FC00437210 /* Party MakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				83A320571C6224FC00437210 /* Party_MakerTests.m */,
+				83A320591C6224FC00437210 /* Info.plist */,
+			);
+			path = "Party MakerTests";
+			sourceTree = "<group>";
+		};
+		83A320611C6224FC00437210 /* Party MakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83A320621C6224FC00437210 /* Party_MakerUITests.m */,
+				83A320641C6224FC00437210 /* Info.plist */,
+			);
+			path = "Party MakerUITests";
+			sourceTree = "<group>";
+		};
+		83D171FE1C7B4442000C2B01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				833A0ED71C84DDAE00F0675A /* Info.plist */,
+				834121C21C7486E100E53357 /* Model.xcdatamodeld */,
+				83D172031C7B4B8F000C2B01 /* language.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F24578C8C83E9BC05EE6281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A99F9001F140688EB6FE28B4 /* Pods-Party Maker.debug.xcconfig */,
+				073D5C4210AB97422D915C3F /* Pods-Party Maker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A320391C6224FC00437210 /* Party Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A320671C6224FC00437210 /* Build configuration list for PBXNativeTarget "Party Maker" */;
+			buildPhases = (
+				9B8CD66C278A6DC14DB339D7 /* Check Pods Manifest.lock */,
+				83A320361C6224FC00437210 /* Sources */,
+				83A320371C6224FC00437210 /* Frameworks */,
+				83A320381C6224FC00437210 /* Resources */,
+				DF96F0AD8247FF7A4E46C577 /* Embed Pods Frameworks */,
+				0AB7433C2B6FF3380F6FDF3C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Party Maker";
+			productName = "Party Maker";
+			productReference = 83A3203A1C6224FC00437210 /* Party Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A320521C6224FC00437210 /* Party MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A3206A1C6224FC00437210 /* Build configuration list for PBXNativeTarget "Party MakerTests" */;
+			buildPhases = (
+				83A3204F1C6224FC00437210 /* Sources */,
+				83A320501C6224FC00437210 /* Frameworks */,
+				83A320511C6224FC00437210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A320551C6224FC00437210 /* PBXTargetDependency */,
+			);
+			name = "Party MakerTests";
+			productName = "Party MakerTests";
+			productReference = 83A320531C6224FC00437210 /* Party MakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83A3205D1C6224FC00437210 /* Party MakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A3206D1C6224FC00437210 /* Build configuration list for PBXNativeTarget "Party MakerUITests" */;
+			buildPhases = (
+				83A3205A1C6224FC00437210 /* Sources */,
+				83A3205B1C6224FC00437210 /* Frameworks */,
+				83A3205C1C6224FC00437210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A320601C6224FC00437210 /* PBXTargetDependency */,
+			);
+			name = "Party MakerUITests";
+			productName = "Party MakerUITests";
+			productReference = 83A3205E1C6224FC00437210 /* Party MakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A320321C6224FC00437210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = latrops;
+				TargetAttributes = {
+					83A320391C6224FC00437210 = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					83A320521C6224FC00437210 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 83A320391C6224FC00437210;
+					};
+					83A3205D1C6224FC00437210 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 83A320391C6224FC00437210;
+					};
+				};
+			};
+			buildConfigurationList = 83A320351C6224FC00437210 /* Build configuration list for PBXProject "Party Maker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				uk,
+			);
+			mainGroup = 83A320311C6224FC00437210;
+			productRefGroup = 83A3203B1C6224FC00437210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A320391C6224FC00437210 /* Party Maker */,
+				83A320521C6224FC00437210 /* Party MakerTests */,
+				83A3205D1C6224FC00437210 /* Party MakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A320381C6224FC00437210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A320771C624FDE00437210 /* Assets.xcassets in Resources */,
+				83350CBE1C6351FF001AEEF2 /* MyriadProRegular.ttf in Resources */,
+				833A0ED51C84DDAE00F0675A /* Info.plist in Resources */,
+				83A6E0841C6FAE00002C7644 /* Myriad_Pro_Italic.ttf in Resources */,
+				83350CBC1C63502F001AEEF2 /* MyriadProBold.ttf in Resources */,
+				83D172061C7B5B2F000C2B01 /* MainStoryboard.storyboard in Resources */,
+				83D172011C7B4B8F000C2B01 /* language.strings in Resources */,
+				83B2252A1C69F9EF008EAE74 /* LWTLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A320511C6224FC00437210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A3205C1C6224FC00437210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB7433C2B6FF3380F6FDF3C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Party Maker/Pods-Party Maker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8CD66C278A6DC14DB339D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF96F0AD8247FF7A4E46C577 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Party Maker/Pods-Party Maker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A320361C6224FC00437210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831DE4BC1C7F464D00157B48 /* LWTMapMultiplePartiesViewController.m in Sources */,
+				83A536711C68B897002399FF /* LWTEventView.m in Sources */,
+				83A320421C6224FC00437210 /* LWTAppDelegate.m in Sources */,
+				834121C41C7486E100E53357 /* Model.xcdatamodeld in Sources */,
+				835707321C772843000E07E9 /* Party+CoreDataProperties.m in Sources */,
+				839A0F181C70C3BB005343F1 /* NSNumberUtility.m in Sources */,
+				83A3203F1C6224FC00437210 /* main.m in Sources */,
+				83E79A5B1C6DEE4F0091A15C /* LWTTableViewCell.m in Sources */,
+				83A6E0821C6F9360002C7644 /* LWTPartyInfoViewController.m in Sources */,
+				83D1723B1C7C8811000C2B01 /* LWTMapViewController.m in Sources */,
+				834D284A1C849AE800458B01 /* LWTTabViewController.m in Sources */,
+				834121DA1C74BC1600E53357 /* Party.m in Sources */,
+				834D28471C8492DE00458B01 /* LWTSettingsViewController.m in Sources */,
+				83E79A5E1C6DF7440091A15C /* LWTTableScreenViewController.m in Sources */,
+				83E79A611C6F8A5A0091A15C /* LWTPartyStorage.m in Sources */,
+				834121C11C73310700E53357 /* LWTPartyMakerSDK.m in Sources */,
+				83D172441C7C94A7000C2B01 /* LWTAnnotationView.m in Sources */,
+				83492FEE1C80A05800C625C9 /* LWTUser.m in Sources */,
+				83A536791C691F6E002399FF /* LWTParty.m in Sources */,
+				834121BE1C72092200E53357 /* LWTLoginViewController.m in Sources */,
+				83D1720E1C7B94D1000C2B01 /* LWTCoreDataAPI.m in Sources */,
+				831DE4B61C7F0A8800157B48 /* CALayer+StoryBoardConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A3204F1C6224FC00437210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A320581C6224FC00437210 /* Party_MakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A3205A1C6224FC00437210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A320631C6224FC00437210 /* Party_MakerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A320551C6224FC00437210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A320391C6224FC00437210 /* Party Maker */;
+			targetProxy = 83A320541C6224FC00437210 /* PBXContainerItemProxy */;
+		};
+		83A320601C6224FC00437210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A320391C6224FC00437210 /* Party Maker */;
+			targetProxy = 83A3205F1C6224FC00437210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		833A0ED71C84DDAE00F0675A /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833A0ED61C84DDAE00F0675A /* en */,
+				833A0ED81C84DDB100F0675A /* uk */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		83D172031C7B4B8F000C2B01 /* language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D172021C7B4B8F000C2B01 /* en */,
+				83D172051C7B4C2A000C2B01 /* uk */,
+			);
+			name = language.strings;
+			sourceTree = "<group>";
+		};
+		83D172081C7B5B2F000C2B01 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D172071C7B5B2F000C2B01 /* en */,
+				83389E631C84D3DB0032CBAF /* uk */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A320651C6224FC00437210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				COPY_HEADERS_UNIFDEF_FLAGS = "${PODS_ROOT}/Reachability";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A320661C6224FC00437210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				COPY_HEADERS_UNIFDEF_FLAGS = "${PODS_ROOT}/Reachability";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A320681C6224FC00437210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99F9001F140688EB6FE28B4 /* Pods-Party Maker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Party Maker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lwt.Party-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		83A320691C6224FC00437210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073D5C4210AB97422D915C3F /* Pods-Party Maker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Party Maker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lwt.Party-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		83A3206B1C6224FC00437210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Party MakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lwt.Party-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Party Maker.app/Party Maker";
+			};
+			name = Debug;
+		};
+		83A3206C1C6224FC00437210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Party MakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lwt.Party-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Party Maker.app/Party Maker";
+			};
+			name = Release;
+		};
+		83A3206E1C6224FC00437210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Party MakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lwt.Party-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Party Maker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83A3206F1C6224FC00437210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Party MakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lwt.Party-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Party Maker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A320351C6224FC00437210 /* Build configuration list for PBXProject "Party Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A320651C6224FC00437210 /* Debug */,
+				83A320661C6224FC00437210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A320671C6224FC00437210 /* Build configuration list for PBXNativeTarget "Party Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A320681C6224FC00437210 /* Debug */,
+				83A320691C6224FC00437210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A3206A1C6224FC00437210 /* Build configuration list for PBXNativeTarget "Party MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A3206B1C6224FC00437210 /* Debug */,
+				83A3206C1C6224FC00437210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A3206D1C6224FC00437210 /* Build configuration list for PBXNativeTarget "Party MakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A3206E1C6224FC00437210 /* Debug */,
+				83A3206F1C6224FC00437210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		834121C21C7486E100E53357 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				834121C31C7486E100E53357 /* Model.xcdatamodel */,
+			);
+			currentVersion = 834121C31C7486E100E53357 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83A320321C6224FC00437210 /* Project object */;
+}

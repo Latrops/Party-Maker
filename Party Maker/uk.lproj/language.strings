@@ -1,0 +1,27 @@
+/* 
+  language.strings
+  Party Maker
+
+  Created by 2 on 2/22/16.
+  Copyright © 2016 latrops. All rights reserved.
+*/
+"CHOOSE DATE" = "ОБРАТИ ДАТУ";
+"Cancel" = "Скасувати";
+"Done" = "Готово";
+"Login" = "Логін";
+"Password" = "Пароль";
+"Error!" = "Помилка!";
+"Choose date." = "Оберіть дату.";
+"Enter party name." = "Введіть назву вечірки.";
+"Your party name" = "Назва вашої вечірки";
+"Date" = "Дата";
+"Party time!" = "Час вечірки!";
+"is about to begin!" = "скоро почнеться!";
+"Location not set" = "Місце не вибрано";
+"Wrong data" = "Направильне ім'я або пароль";
+"Enter data" = "Заповніть всі поля";
+"User exists" = "Користувач вже існує";
+"New party" = "Нова вечірка";
+"Location not set" = "Місце не обрано";
+"Mark done" = "Виконано";
+"Cannot connect to server" = "З'єднання з сервером відсутнє";
